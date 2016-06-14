@@ -62,6 +62,7 @@ $(document).ready(function() {
         $("ul#addresses").append("<li>" + address.fullAddress() + "</li>");
       });
     });
+    $(".new-address").not("#new-address").hide();
     resetFields();
   });
 });
